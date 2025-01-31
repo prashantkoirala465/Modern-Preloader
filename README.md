@@ -25,7 +25,7 @@ A sophisticated and visually appealing preloader animation built with GSAP (Gree
 
 1. Clone the repository:
 ```bash
-git clone [repository-url]
+git clone https://github.com/prashantkoirala465/Modern-Preloader
 cd Modern-Preloader
 ```
 
