@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Preloader Animation</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/SplitText.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/CustomEase.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'grotesk': ['Space Grotesk', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <div id="preloader" class="font-grotesk">
+        <div class="preloader-content">
+            <div class="progress-text">0</div>
+            <div class="loading-text">Loading</div>
+        </div>
+    </div>
+
+    <div class="content">
+        <h1>Welcome to the Website</h1>
+        <p>Content loaded successfully!</p>
+    </div>
+
+    <script src="js/preloader.js"></script>
+    <script>
+        // Simulate loading time
+        // Remove setTimeout as we're using GSAP for transitions
+    </script>
+</body>
+</html>
